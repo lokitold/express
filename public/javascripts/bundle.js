@@ -10038,7 +10038,7 @@ module.exports = renderVote;
 var redux = require('redux');
 var createLogger = require('redux-logger');
 var reducer = require('./reducer');
-var socket = require('socket.io-client')('http://localhost:8080');
+var socket = require('socket.io-client')('http://socket-io-laboratoria.herokuapp.com/');
 var remoteActionsMiddleware = require('./middleware');
 
 var logger = createLogger();
